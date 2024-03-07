@@ -28,7 +28,9 @@
 [Oo]bj/
 _UpgradeReport_Files/
 [Pp]ackages/
-
+*.exe
+*.dll
+*.cache
 Thumbs.db
 Desktop.ini
 .DS_Store
