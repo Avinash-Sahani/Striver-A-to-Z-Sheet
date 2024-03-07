@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\A-To-Z\\Striver-A-To-Z-Sheet\\Striver-A-To-Z-Sheet.csproj": {}
+    "D:\\A-To-Z\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj": {}
   },
   "projects": {
-    "D:\\A-To-Z\\Striver-A-To-Z-Sheet\\Striver-A-To-Z-Sheet.csproj": {
+    "D:\\A-To-Z\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A-To-Z\\Striver-A-To-Z-Sheet\\Striver-A-To-Z-Sheet.csproj",
-        "projectName": "Striver-A-To-Z-Sheet",
-        "projectPath": "D:\\A-To-Z\\Striver-A-To-Z-Sheet\\Striver-A-To-Z-Sheet.csproj",
+        "projectUniqueName": "D:\\A-To-Z\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
+        "projectName": "Striver-DSA-A-Z",
+        "projectPath": "D:\\A-To-Z\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
         "packagesPath": "C:\\Users\\avina\\.nuget\\packages\\",
-        "outputPath": "D:\\A-To-Z\\Striver-A-To-Z-Sheet\\obj\\",
+        "outputPath": "D:\\A-To-Z\\Striver-DSA-A-Z\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\avina\\AppData\\Roaming\\NuGet\\NuGet.Config",
