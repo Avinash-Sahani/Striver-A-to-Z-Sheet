@@ -1,5 +1,4 @@
-namespace Striver_DSA_A_Z._01_Sorting.Sorting_I;
-
+namespace Striver_DSA_A_Z._01_Sorting;
 public partial class SortingAlgo
 {
     public static void SelectionSort(int[] arr)
