@@ -21,6 +21,7 @@
 bin
 obj
 obj/Debug
+obj/Debug/net7.0
 packages
 # Rider
 # Rider auto-generates .iml files, and contentModel.xml
