@@ -20,6 +20,7 @@
 **/**/**/.pdb
 bin
 obj
+obj/Debug
 packages
 # Rider
 # Rider auto-generates .iml files, and contentModel.xml
