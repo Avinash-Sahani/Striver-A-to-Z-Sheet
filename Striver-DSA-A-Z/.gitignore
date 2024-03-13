@@ -18,6 +18,9 @@
 **/**/**/.exe
 **/**/**/.dll
 **/**/**/.pdb
+bin
+obj
+packages
 # Rider
 # Rider auto-generates .iml files, and contentModel.xml
 **/.idea/**/*.iml
@@ -27,6 +30,7 @@
 *.suo
 *.user
 .vs/
+.idea/
 [Bb]in/
 [Oo]bj/
 _UpgradeReport_Files/
