@@ -4,22 +4,35 @@ public partial class Arrays
 {
     public static int[] GetSecondOrderElements(int n, int[] a) {
         int largest = int.MinValue;
-        int secondlargest = int.MinValue;
+        int secondLargest = int.MinValue;
         int smallest = int.MaxValue;
-        int secondsmallest = int.MaxValue;
+        int secondSmallest = int.MaxValue;
 
-        for (int i = 0; i < n; i++) {
-            if (a[i] > largest) {
-                secondlargest = largest;
-                largest = a[i];
+        foreach (int num in a)
+        {
+            if (num > largest)
+            {
+                secondLargest = largest;
+                largest = num;
             }
-            if (a[i] < smallest) {
-                secondsmallest = smallest;
-                smallest = a[i];
+            else if (num != largest && num > secondLargest)
+            {
+                secondLargest = num;
             }
+
+            if (num < smallest)
+            {
+                secondSmallest = smallest;
+                smallest = num;
+            }
+            else if (num != smallest && num < secondSmallest)
+            {
+                secondSmallest = num;
+            }
+            
         }
-        
-        int[] arr = { secondlargest, secondsmallest };
-        return arr;
+
+        int[] result = { secondLargest, secondSmallest };
+        return result;
     }
 }
