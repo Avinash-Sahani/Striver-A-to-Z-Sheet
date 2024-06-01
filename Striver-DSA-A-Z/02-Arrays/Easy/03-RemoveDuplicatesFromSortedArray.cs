@@ -7,8 +7,8 @@ public partial class Arrays
         int duplicatePointer = 0;
         
         int n = nums.Length;
-        if(duplicatePointer >= n) 
-            return duplicatePointer;
+        if (nums.Length == 1)
+            return 1;
         for(int i=1; i<n; i++)
         {
             if(nums[i]!=nums[duplicatePointer] )
@@ -17,6 +17,7 @@ public partial class Arrays
              
                 nums[duplicatePointer] = nums[i]; 
             }
+            
 
         
         }
