@@ -2,13 +2,21 @@
 
 
 
-using Striver_DSA_A_Z._01_Sorting;
-using Striver_DSA_A_Z._02_Arrays.Easy;
 
-int[] arr = { 1,2,3,4,5,6,7 };
-Arrays.Rotate(arr,3);
-//Console.WriteLine("Sorted array:");
-foreach (int num in arr)
+using Striver_DSA_A_Z._02_Arrays.Medium;
+
+
+int[][] jaggedArray = new int[1][]
 {
-    Console.Write(num + " ");
+    new int[] { 1, 0, 3 },
+
+};
+Arrays.SetZeroes(jaggedArray);
+for (int i = 0; i < 1; i++)
+{
+    for (int j = 0; j < 3; j++)
+    {
+        Console.Write(jaggedArray[i][j] +"  ");
+    }
+    Console.WriteLine();
 }

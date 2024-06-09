@@ -7,7 +7,7 @@ public partial class Arrays {
         var total_subarrays = 0;
         var sum=0;
         var previousNums = new Dictionary<int, int>();
-
+        
         for (var i=0; i<nums.Length; i++)
         {
             var num = nums[i];
@@ -21,6 +21,7 @@ public partial class Arrays {
             int remainder = sum - k;
             if (previousNums.TryGetValue(remainder,out int count))
             {
+                
 
                 total_subarrays += count;
             }
