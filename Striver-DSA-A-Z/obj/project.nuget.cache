@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "IkSxkwg4YbvZL/w7PgPjsoMvxjtzA76Xh4TZ9LV0rP6FpdWlBqKqHSMPcIRX2QTt7Ndnac0SJ4A/Ju/UDz5CPQ==",
+  "dgSpecHash": "Hf6AA7MPBd5OCwbQSRm1C8kHPlSnkEPkqA7V8PI8Odm6hNnYVT+ea3O99XmrHehPdQdNViKVZMdeY6oZ9nvvBw==",
   "success": true,
-  "projectFilePath": "D:\\DSA_SHEET\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Avinash Sahani\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Avinash Sahani\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Avinash Sahani\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\Avinash Sahani\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
   "logs": []
 }

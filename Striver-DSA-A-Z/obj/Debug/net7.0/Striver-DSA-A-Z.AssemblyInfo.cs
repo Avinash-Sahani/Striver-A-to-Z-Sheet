@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Striver-DSA-A-Z")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14246b7ebc7368ac9361f8f45051289eff4d4e4a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd706ae1c930613529529c5e713132aa5c7cb991")]
 [assembly: System.Reflection.AssemblyProductAttribute("Striver-DSA-A-Z")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Striver-DSA-A-Z")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

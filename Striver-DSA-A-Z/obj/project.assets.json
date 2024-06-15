@@ -8,27 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\avina\\.nuget\\packages\\": {}
+    "C:\\Users\\Avinash Sahani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DSA_SHEET\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
+      "projectUniqueName": "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
       "projectName": "Striver-DSA-A-Z",
-      "projectPath": "D:\\DSA_SHEET\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
-      "packagesPath": "C:\\Users\\avina\\.nuget\\packages\\",
-      "outputPath": "D:\\DSA_SHEET\\Striver-DSA-A-Z\\obj\\",
+      "projectPath": "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
+      "packagesPath": "C:\\Users\\Avinash Sahani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\avina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Avinash Sahani\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/free-alliance/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -56,12 +55,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.18, 7.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.18, 7.0.18]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.18, 7.0.18]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.18, 7.0.18]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }
