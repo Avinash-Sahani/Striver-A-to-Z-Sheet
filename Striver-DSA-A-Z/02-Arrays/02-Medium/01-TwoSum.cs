@@ -1,4 +1,4 @@
-namespace Striver_DSA_A_Z._02_Arrays.Medium;
+namespace Striver_DSA_A_Z._02_Arrays;
 //URL : https://leetcode.com/problems/two-sum/
 public partial class Arrays {
     public int[] TwoSum(int[] nums, int target) {

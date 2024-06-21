@@ -1,4 +1,4 @@
-namespace Striver_DSA_A_Z._02_Arrays.Easy;
+namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class  Arrays
 {   public static int SingleNumber(int[] nums)

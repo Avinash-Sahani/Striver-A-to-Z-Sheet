@@ -1,7 +1,7 @@
-﻿namespace Striver_DSA_A_Z._02_Arrays._03_Hard;
+﻿namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays {
-    public IList<int> MajorityElement(int[] nums) {
+    public IList<int> MajorityElementII(int[] nums) {
 
         int count_1=0,count_2 = 0;
         IList<int> majority = new List<int>();
