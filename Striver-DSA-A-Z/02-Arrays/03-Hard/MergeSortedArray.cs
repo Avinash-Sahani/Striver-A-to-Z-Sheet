@@ -2,12 +2,14 @@
 
 public partial class Arrays
 {
-    public static void SwapIfGreater(int[] nums1, int l, int[] nums2, int r){
+    public void SwapIfGreater(int[] nums1, int l, int[] nums2, int r){
         if(nums1[l]>nums2[r])
             (nums1[l],nums2[r]) = (nums2[r],nums1[l]);
     }
-    public static void Merge(int[] nums1, int m, int[] nums2, int n) {
+    public  void Merge(int[] nums1, int m, int[] nums2, int n) {
 
+        if(n==0)
+            return;
         int left= 0;
         int right = 0;
         int total_size = m+n;
@@ -47,8 +49,9 @@ public partial class Arrays
 
         for (int i = 0; i < n; i++)
         {
-            nums1[n + i] = nums2[i];
+            nums1[m + i] = nums2[i];
         }
     }
+
 
 }
