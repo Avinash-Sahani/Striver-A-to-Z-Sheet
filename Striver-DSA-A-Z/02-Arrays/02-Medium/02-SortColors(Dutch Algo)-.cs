@@ -1,4 +1,4 @@
-namespace Striver_DSA_A_Z._02_Arrays.Medium;
+namespace Striver_DSA_A_Z._02_Arrays;
 //Link : https://leetcode.com/problems/sort-colors/
 public partial class Arrays {
     public void SortColors(int[] nums) {

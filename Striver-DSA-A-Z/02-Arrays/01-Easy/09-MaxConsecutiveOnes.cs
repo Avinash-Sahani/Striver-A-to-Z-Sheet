@@ -1,4 +1,4 @@
-namespace Striver_DSA_A_Z._02_Arrays.Easy;
+namespace Striver_DSA_A_Z._02_Arrays;
 //LeetCode Link : https://leetcode.com/problems/max-consecutive-ones/
 
 

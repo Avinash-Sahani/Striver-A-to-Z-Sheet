@@ -1,4 +1,4 @@
-namespace Striver_DSA_A_Z._02_Arrays.Medium;
+namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays_
 {

@@ -1,4 +1,4 @@
-﻿namespace Striver_DSA_A_Z._02_Arrays._03_Hard;
+﻿namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays {
     public int nCr(int n,int r)
