@@ -1,5 +1,4 @@
-﻿namespace Striver_DSA_A_Z._03_BinarySearch._1D_Arrays;
-
+﻿namespace Striver_DSA_A_Z._03_BinarySearch;
 public partial class BinarySearch
 {
     public int BinarySearchNum(int [] nums,int low,int high,int target)
