@@ -8,4 +8,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Update="03-BinarySearch\1D-Arrays\Floor-Ceil-Method-2.cs">
+        <DependentUpon>04-Floor-Ceil.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>
