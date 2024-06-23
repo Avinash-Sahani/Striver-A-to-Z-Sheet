@@ -2,9 +2,9 @@
 
 public partial class BinarySearch {
 
-    static int floor = -1;
-    static int ceil = -1;
-    public static int[] BsfloorCeil(int[]arr,int low,int high,int x)
+     int floor = -1;
+     int ceil = -1;
+    public  int[] BsfloorCeil(int[]arr,int low,int high,int x)
     {
 
 
@@ -42,7 +42,7 @@ public partial class BinarySearch {
 
 
     }
-    public static int[] getFloorAndCeil(int[] a, int n, int x) {
+    public  int[] getFloorAndCeil(int[] a, int n, int x) {
 
         return BsfloorCeil(a,0,n-1,x);
         // Wriute your code here.

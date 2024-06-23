@@ -1,7 +1,7 @@
 namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays{
-    public  static bool IsRotatedSorted(int[] nums)
+    public   bool IsRotatedSorted(int[] nums)
     {
         if (nums.Length == 1)
             return true;

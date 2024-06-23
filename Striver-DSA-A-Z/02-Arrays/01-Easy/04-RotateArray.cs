@@ -4,7 +4,7 @@ namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays{
 
-    public static void Rotate(int[] nums, int k)
+    public  void Rotate(int[] nums, int k)
     {
 
         int n =nums.Length;
@@ -19,7 +19,7 @@ public partial class Arrays{
 
     }
 
-    public static void ReverseArray(int[] nums, int startIndex, int endIndex)
+    public  void ReverseArray(int[] nums, int startIndex, int endIndex)
     {
 
         while (startIndex < endIndex)

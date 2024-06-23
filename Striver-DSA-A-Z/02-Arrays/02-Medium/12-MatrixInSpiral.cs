@@ -1,7 +1,7 @@
 ﻿namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays {
-    public static IList<int> SpiralOrder(int[][] matrix) {
+    public  IList<int> SpiralOrder(int[][] matrix) {
 
         List<int> spiralMatrix = new List<int>();
         int n = matrix.Length;

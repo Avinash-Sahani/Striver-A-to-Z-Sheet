@@ -54,7 +54,7 @@ public partial class BinarySearch
         }
     }
 
-    public static int[] GetFloorAndCeil(int[] a, int n, int x)
+    public  int[] GetFloorAndCeil(int[] a, int n, int x)
     {
         floor = -1;
         ceil = -1;

@@ -3,7 +3,7 @@
 public partial class BinarySearch{
 
     // n is the size of array
-    static int ans  = -1;
+     int ans  = -1;
 
     public  int Bsfloor(long []arr,int low,int high,long x)
     {

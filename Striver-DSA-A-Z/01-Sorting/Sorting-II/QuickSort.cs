@@ -2,7 +2,7 @@ namespace Striver_DSA_A_Z._01_Sorting;
 
 public partial  class  SortingAlgo
 {
-    public static void quickSort(int[] input, int startIndex, int endIndex)
+    public  void quickSort(int[] input, int startIndex, int endIndex)
     {
         if (startIndex < endIndex)
         {
@@ -14,7 +14,7 @@ public partial  class  SortingAlgo
         }
     }
 
-    public static int GetPartitionIndex(int[] arr, int startIndex, int endIndex)
+    public  int GetPartitionIndex(int[] arr, int startIndex, int endIndex)
     {
 
         int low = startIndex;

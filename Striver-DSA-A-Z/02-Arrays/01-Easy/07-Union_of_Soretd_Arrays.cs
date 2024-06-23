@@ -76,7 +76,7 @@ public partial class Arrays{
     
     
     //Another Approach using Hashset
-    public static List<int> sortedArray(int []a, int []b)
+    public  List<int> sortedArray(int []a, int []b)
     {
 
         HashSet<int> arr = new HashSet<int>();

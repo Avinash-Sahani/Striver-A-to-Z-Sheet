@@ -3,7 +3,7 @@
 public partial class Arrays {
 
 
-    public static IList<IList<int>> ThreeSum(int[] nums) {
+    public  IList<IList<int>> ThreeSum(int[] nums) {
 
 
         IList<IList<int>> triplets = new List<IList<int>>();

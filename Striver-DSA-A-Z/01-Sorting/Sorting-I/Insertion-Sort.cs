@@ -2,7 +2,7 @@ namespace Striver_DSA_A_Z._01_Sorting;
 
 public partial class SortingAlgo
 {
-    public static void InsertionSort(int[] arr, int n)
+    public  void InsertionSort(int[] arr, int n)
     {
         for (var i = 1; i < n; i++)
         {

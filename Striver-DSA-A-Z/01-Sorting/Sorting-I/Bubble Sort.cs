@@ -3,7 +3,7 @@ namespace Striver_DSA_A_Z._01_Sorting;
 
 public partial class SortingAlgo
 {
-    public static void BubbleSort(int[] arr, int n)
+    public  void BubbleSort(int[] arr, int n)
     {
         for (int i = 0; i < n - 1; i++)
         {

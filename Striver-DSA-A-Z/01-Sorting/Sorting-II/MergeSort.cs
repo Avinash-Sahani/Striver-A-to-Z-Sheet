@@ -2,7 +2,7 @@ namespace Striver_DSA_A_Z._01_Sorting;
 
 public partial class SortingAlgo
 {
-    public static void MergeSort(int []arr , int low ,int high)
+    public  void MergeSort(int []arr , int low ,int high)
     {
         if(low >= high)
             return;
@@ -13,7 +13,7 @@ public partial class SortingAlgo
         
     }
 
-    private static void MergeArrays(int[] arr, int low, int mid, int high)
+    private  void MergeArrays(int[] arr, int low, int mid, int high)
     {
         var tempArr = new List<int>();
         var p1 = low;

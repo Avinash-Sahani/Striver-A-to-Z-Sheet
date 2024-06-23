@@ -2,7 +2,7 @@ namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays
 {
-    public static void SetZeroes(int[][] matrix)
+    public  void SetZeroes(int[][] matrix)
     {
         int n = matrix.Length;
         int m = matrix[0].Length;
