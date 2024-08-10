@@ -2,7 +2,7 @@ namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays
 {
-    public  void SetZeroes(int[][] matrix)
+    public void SetZeroes(int[][] matrix)
     {
         int n = matrix.Length;
         int m = matrix[0].Length;
@@ -27,23 +27,37 @@ public partial class Arrays
                 }
             }
         }
-
-        for (int i = 1; i < n; i++)
+        for (int j = 1; j < m; j++)
         {
-            for (int j = 1; j < m; j++)
+
+            if (matrix[0][j] == 0)
             {
-                if (matrix[i][0] == 0 || matrix[0][j] == 0)
+                for (int i = 1; i < n; i++)
                     matrix[i][j] = 0;
             }
+
         }
 
-        for (int j = 0; j < m; j++)
+        for (int i = 0; i < n; i++)
         {
-            if (matrix[0][j] != 0 && matrix[0][0] == 0)
+
+            if (matrix[i][0] == 0)
             {
-                matrix[0][j] = 0;
+                for (int j = 0; j < m; j++)
+                    matrix[i][j] = 0;
             }
+
         }
+
+
+        // for (int j = 1; j < m; j++)
+        // {
+        //     if (matrix[0][j] == 0)
+        //     {
+        //      for(int i=1; i<n; i++)
+        //         matrix[i][j]=0;
+        //     }
+        // }
 
         if (col0 == 0)
         {
@@ -54,7 +68,5 @@ public partial class Arrays
 
             }
         }
-        
     }
 }
-    
