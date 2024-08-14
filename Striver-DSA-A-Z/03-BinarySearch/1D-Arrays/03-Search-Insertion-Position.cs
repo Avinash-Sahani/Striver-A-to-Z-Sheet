@@ -2,25 +2,25 @@
 
 public partial class BinarySearch {
 
-
     public  int Bsfloor(int []arr,int low,int high,int x)
     {
-
-        if(low>high)
-            return ans+1;
-        int mid = (low + high)/2;
-        if(arr[mid]==x)
-            return mid;
-        else if(arr[mid]<x)
+        int ans = -1;
+        while(low<=high)
         {
-            if(mid>ans)
-                ans = mid;
-            return Bsfloor(arr,mid+1,high,x);
+            int mid = (low + high)/2;
+            if(arr[mid]==x)
+                return mid;
+            else if(arr[mid]<x)
+            {
+                if(mid>ans)
+                    ans = mid;
+                low = mid+1;
+
+            }
+            else
+                high = mid-1;
         }
-        else
-            return Bsfloor(arr,low,mid-1,x);
-
-
+        return ans+1;
 
 
     }
