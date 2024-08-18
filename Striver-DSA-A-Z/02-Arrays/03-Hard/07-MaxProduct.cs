@@ -2,7 +2,7 @@
 
 public partial class Arrays
 {
-    public static int MaxProduct(int[] nums) {
+    public  int MaxProduct(int[] nums) {
         double max = double.MinValue;
         double prefix =1;
         double suffix=1;

@@ -2,7 +2,7 @@ namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays
 {
-    public static int[] GetSecondOrderElements(int n, int[] a) {
+    public  int[] GetSecondOrderElements(int n, int[] a) {
         int largest = int.MinValue;
         int secondLargest = int.MinValue;
         int smallest = int.MaxValue;

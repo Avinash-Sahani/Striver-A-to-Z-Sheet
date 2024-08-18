@@ -2,7 +2,7 @@ namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays
 {
-    public static int RemoveDuplicates(int[] nums)
+    public  int RemoveDuplicates(int[] nums)
     {
         int duplicatePointer = 0;
         

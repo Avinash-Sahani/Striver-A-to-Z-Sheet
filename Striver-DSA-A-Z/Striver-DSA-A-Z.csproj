@@ -2,10 +2,16 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <RootNamespace>Striver_DSA_A_Z</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Update="03-BinarySearch\1D-Arrays\Floor-Ceil-Method-2.cs">
+        <DependentUpon>04-Floor-Ceil.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
 
 </Project>

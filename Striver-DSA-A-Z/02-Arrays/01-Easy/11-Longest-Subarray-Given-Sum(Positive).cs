@@ -2,7 +2,7 @@ namespace Striver_DSA_A_Z._02_Arrays;
 
 public partial class Arrays
 {
-    public static int longestSubarrayWithSumK(int []a, long k) {
+    public  int longestSubarrayWithSumK(int []a, long k) {
 
     
 
