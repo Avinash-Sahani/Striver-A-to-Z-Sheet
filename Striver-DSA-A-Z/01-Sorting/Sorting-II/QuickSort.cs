@@ -28,7 +28,7 @@ public partial  class  SortingAlgo
             {
                 i++;
             }
-        
+
             while (j>=low+1 && arr[j] >= pivot )
             {
                 j--;
@@ -38,6 +38,6 @@ public partial  class  SortingAlgo
         }
         (arr[low], arr[j]) = (arr[j], arr[low]);
         return j;
-      
+
     }
 }
