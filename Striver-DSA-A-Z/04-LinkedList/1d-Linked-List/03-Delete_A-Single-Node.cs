@@ -6,10 +6,3 @@ public partial class LinkedList {
         node.next = node.next.next;
     }
 }
-
-
-  public class ListNode {
-      public int val;
-      public ListNode next;
-      public ListNode(int x) { val = x; }
-  }
