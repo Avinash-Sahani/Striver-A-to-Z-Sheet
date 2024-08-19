@@ -4,9 +4,9 @@ public partial class Arrays {
     public void SortColors(int[] nums) {
 
         int n = nums.Length;
-        int low =0,high =n-1 ,mid =0;   
-    
-    
+        int low =0,high =n-1 ,mid =0;
+
+
         while(mid<=high)
         {
 
@@ -22,7 +22,7 @@ public partial class Arrays {
 
             else if(nums[mid]==2)
             {
-            
+
                 (nums[mid],nums[high]) = (nums[high],nums[mid]);
                 high--;
             }
@@ -31,6 +31,6 @@ public partial class Arrays {
 
 
         }
-    
+
     }
 }
