@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj": {}
+    "C:\\Users\\Avinash Sahani\\Documents\\LeetCode\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj": {
+    "C:\\Users\\Avinash Sahani\\Documents\\LeetCode\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
+        "projectUniqueName": "C:\\Users\\Avinash Sahani\\Documents\\LeetCode\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
         "projectName": "Striver-DSA-A-Z",
-        "projectPath": "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
+        "projectPath": "C:\\Users\\Avinash Sahani\\Documents\\LeetCode\\Striver-DSA-A-Z\\Striver-DSA-A-Z.csproj",
         "packagesPath": "C:\\Users\\Avinash Sahani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Avinash Sahani\\Documents\\Striver-A-to-Z-Sheet\\Striver-DSA-A-Z\\obj\\",
+        "outputPath": "C:\\Users\\Avinash Sahani\\Documents\\LeetCode\\Striver-DSA-A-Z\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Avinash Sahani\\AppData\\Roaming\\NuGet\\NuGet.Config"
